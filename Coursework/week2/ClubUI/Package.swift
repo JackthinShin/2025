@@ -32,11 +32,7 @@ let package = Package(
             name: "GradientText",
             dependencies: []), // 保持独立
         
-        // ---
-        // 注意：如果想实现可选的“模块间依赖”
-        // 你可以将 GradientText target 改为：
-        // .target(name: "GradientText", dependencies: ["FancyButton"])
-        // 但在这个作业中，这两个组件功能独立，不建议添加此依赖。
-        // ---
+
     ]
+
 )
